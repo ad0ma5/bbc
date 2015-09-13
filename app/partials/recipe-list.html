@@ -42,8 +42,8 @@
 							<img class="list_img" style="display: inline; margin-right:10px" ng-src="{{recipe.imageUrl}}">  {{ recipe.name | limitTo: 20 }}{{recipe.name.length > 20 ? '...' : ''}}
 						</a>
 					</div>
-					<p class="recipe_descr" style
-						Cooking time {{recipe.cookingTime}}. <br> Main Ingredients: <i ng-repeat="ingredient in recipe.mainIngredients">{{ingredient.ingredient}} </i> 
+					<p class="recipe_descr" >
+						Cooking time {{recipe.cookingTime}} . <br> Main Ingredients: <i ng-repeat="ingredient in recipe.mainIngredients">{{ingredient.ingredient}} </i> 
 					</p> 
 				</li>
 			</ul>

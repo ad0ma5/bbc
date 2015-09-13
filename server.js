@@ -27,7 +27,7 @@ app.get('/register/:username/:pass/:name', function(req, res) {
 		users = JSON.parse( data );
 	}catch(err){}
 	//add new user to loaded data	  
-	if( users[username].password === pass  ){ //user exist just load and login user
+	if( users[username] ){ //user exist just load and login user
 		user = users[username];
 		user.msg = "logged in";
 		user.username = username;

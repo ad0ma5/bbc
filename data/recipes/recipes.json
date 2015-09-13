@@ -8,7 +8,7 @@
 	}, 
 	{
 		"name": "Lemon Chicken", 
-		"cookingTime": "30 minutes" , 
+		"cookingTime": "30 minutes", 
 		"mainIngredients": [
 			{
 				"ingredient": "Chicken",
