@@ -3,15 +3,15 @@
 To download this project please run in your terminal:
 
 * git clone https://github.com/ad0ma5/bbc.git
-* cd bbc
 
 To launch application please run in your terminal:
 
+* cd bbc
 * npm start
 
 After all required dependencies are downloaded and server started,
 
-please visit URL:
+please visit URL in your browser:
 
 * http://0.0.0.0:3001/app/
 
