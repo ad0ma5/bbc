@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Chicken Caesar Salad", 
+		"cookingTime": "25 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lettuce",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Parmesan",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Chicken-Caesar-Salad", 
+		"imageUrl": "img/recipes/Chicken-Caesar-Salad.jpg"
+	}
+]

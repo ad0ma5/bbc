@@ -1,0 +1,64 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2">
+			<!--Sidebar content-->
+			{{status.name?'User:"'+status.name+'"':''}}
+			<a href="#/login" style="{{status.msg == 'logged in'? 'display:none' : ''}}">Login</a> 
+			<a href="#/register" style="{{status.msg == 'logged in'? 'display:none' : ''}}">Register</a>
+			<a style="{{status.msg == 'logged in'? '' : 'display:none'}}" ng-click="logoutAction()">Logout</a>
+			<br>Search: {{query}} <input ng-model="query">
+			Sort by:
+			<select ng-model="orderProp">
+				<option value="name">Alphabetical</option>
+				<option value="age">Newest</option>
+			</select>
+			Results per page:
+			<select ng-model="limit">
+				<option value="3">3</option>
+				<option value="6">6</option>
+				<option value="10">10</option>
+			</select>
+			<div style="{{status.msg == 'logged in'? '' : 'display:none'}}">
+				Selected filter: {{selectStared}}
+				<select ng-model="selectStared" ng-change="filterStarsAction(selectStared)" >
+					<option value="all">all</option>
+					<option value="stared">stared</option>        
+				</select>
+			</div>
+		</div>
+		<div class="col-md-10">
+			<!--Body content-->
+			<div class="page_msg">
+				Results: from {{limit*(currentPage-1)}} to {{limit*(currentPage-1)+limit*1}} of {{(recipes | filter:query).length}}
+			</div>
+			<ul class="recipes" >
+				<li  ng-repeat="recipe in recipes | filter:query | orderBy:orderProp" class="thumbnail recipe{{$index}}" style="{{($index >= (limit*(currentPage-1)+limit*1))?'display:none':''}} {{($index < (limit*(currentPage-1)))?'display:none':''}} ">
+					<span> {{$index}}</span>
+					<div class="star_stuff"  ng-click="starAction(recipe.id)" style="{{status.msg == 'logged in'? '' : 'display:none'}}">
+						{{stars[recipe.id]==1?'stared':'unstared'}}
+					</div> 
+					<div class="image_and_name" >
+						<a href="#/recipes/{{recipe.id}}" class="thumb">
+							<img class="list_img" style="display: inline; margin-right:10px" ng-src="{{recipe.imageUrl}}">  {{ recipe.name | limitTo: 20 }}{{recipe.name.length > 20 ? '...' : ''}}
+						</a>
+					</div>
+					<p class="recipe_descr" style
+						Cooking time {{recipe.cookingTime}}. <br> Main Ingredients: <i ng-repeat="ingredient in recipe.mainIngredients">{{ingredient.ingredient}} </i> 
+					</p> 
+				</li>
+			</ul>
+			<div class="pagination">
+				<div paging page="currentPage" page-size="limit" total="(recipes | filter:query).length" paging-action="changePage('test', page)"></div> 
+			</div>
+			{{
+				(recipes.length != 0) ? (
+					((recipes | filter:query).length != 0) ? "" : "Sorry, nothing matched your filter term."
+				) : ( 
+					(selectStared == 'stared') 
+					? "Sorry, you don't currently have any starred recipes, get started by starring recipes you like" 
+					:	"Sorry, we currently have no recipes for you."
+				)
+			}}
+		</div>
+	</div>
+</div>

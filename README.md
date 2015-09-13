@@ -1,2 +1,2 @@
-# bbc
-# test
+# AngularJS & Node.js App "Recipes list"
+

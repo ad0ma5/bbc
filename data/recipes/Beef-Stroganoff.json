@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Beef Stroganoff", 
+		"cookingTime": "30 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Beef",
+				"quantity": "400g"
+			},
+			{
+				"ingredient": "Mustard",
+				"quantity": "1 tsp"
+			},
+			{
+				"ingredient": "Mushrooms",
+				"quantity": "100g"
+			}
+		],
+		"id": "Beef-Stroganoff", 
+		"imageUrl": "img/recipes/Beef-Stroganoff.jpg"
+	}
+]

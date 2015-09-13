@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" ng-app="recipeApp" ng-controller="recipeListCtrl">
+<head>
+  <meta charset="utf-8">
+  <title ng-bind-template="Recipe: {{query}}">...</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-route/angular-route.js"></script>
+  <script src="../bower_components/angular-paging/dist/paging.js"></script>
+  <script src="../bower_components/angular-resource/angular-resource.js"></script>
+  <script src="../bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/services.js"></script>
+</head>
+<body >
+	<div class="main" >
+		<h2 class="header">Recipe list</h2>
+		<div ng-view></div>
+	</div>
+</body>
+</html>

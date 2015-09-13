@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Some Other salad", 
+		"cookingTime": "10 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Salad",
+				"quantity": "200 g"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Tomato",
+				"quantity": "3"
+			}
+		],
+		"id": "Some-Other-salad", 
+		"imageUrl": "img/recipes/Chicken-Caesar-Salad.jpg"
+	}
+]

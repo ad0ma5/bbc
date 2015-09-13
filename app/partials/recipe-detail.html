@@ -1,0 +1,25 @@
+<div style="margin:50px;{{recipe[0].name?'':'display:none'}}">
+	<img style="float: right;
+    height: 200px;
+    margin-right: 30px;
+    width: 200px;" ng-src="{{recipe[0].imageUrl}}" class="recipe">
+
+	<h1>{{recipe[0].name}}</h1>
+
+	<ul class="specs">
+		<li>cookingTime: {{recipe[0].cookingTime}}</li>
+		<li>
+			<span>Ingredients</span>
+			<ul ng-repeat="ingedient in recipe[0].mainIngredients">
+				<li>{{ingedient.ingredient}} {{ingedient.quantity}}</li>
+			</ul>
+		</li>
+		<li>
+			<span>Recipe</span>
+			<p>{{recipe[0].recipe}}</p>
+		</li>
+	</ul>
+</div>
+<div style="{{recipe[0].name?'display:none':''}}">Sorry, this recipe doesn't exist or may have been removed
+</div>
+<a href="#/recipes">recipes</a>

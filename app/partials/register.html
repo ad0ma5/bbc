@@ -1,0 +1,9 @@
+<form  novalidate style="{{status.msg == 'logged in'? 'display:none' : ''}}">
+    <input  placeholder="Username" ng-model="user.login"><br>
+    <input  placeholder="Password" type="password" ng-model="user.pass"><br>
+    <input  placeholder="name"  ng-model="user.name"><br>   
+    <button type="submit" ng-click="registerAction()">Register</button>
+    
+</form>
+<p>{{status.msg}}</p>
+<a href="#/recipes" >recipes</a>

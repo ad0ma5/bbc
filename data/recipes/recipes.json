@@ -1,0 +1,210 @@
+[
+	{
+		"name": "not existing dish", 
+		"cookingTime": "0 minutes", 
+		"mainIngredients": [],
+		"id": "not-existing-dish", 
+		"imageUrl": "img/recipes/Lemon-Chicken.jpg"
+	}, 
+	{
+		"name": "Lemon Chicken", 
+		"cookingTime": "30 minutes" , 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Lemon-Chicken", 
+		"imageUrl": "img/recipes/Lemon-Chicken.jpg"
+	}, 
+	{
+		"name": "Beef Stroganoff", 
+		"cookingTime": "30 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Beef",
+				"quantity": "400g"
+			},
+			{
+				"ingredient": "Mustard",
+				"quantity": "1 tsp"
+			},
+			{
+				"ingredient": "Mushrooms",
+				"quantity": "100g"
+			}
+		],
+		"id": "Beef-Stroganoff", 
+		"imageUrl": "img/recipes/Beef-Stroganoff.jpg"
+	}, 
+	{
+		"name": "Chicken Caesar Salad", 
+		"cookingTime": "25 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lettuce",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Parmesan",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Chicken-Caesar-Salad", 
+		"imageUrl": "img/recipes/Chicken-Caesar-Salad.jpg"
+	},
+	{
+		"name": "not existing dish Lemon Chicken 0", 
+		"cookingTime": "30 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Lemon-Chicken0", 
+		"imageUrl": "img/recipes/Lemon-Chicken.jpg"
+	}, 
+	{
+		"name": "not existing dish Beef Stroganoff0", 
+		"cookingTime": "30 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Beef-Stroganoff0", 
+		"imageUrl": "img/recipes/Beef-Stroganoff.jpg"
+	}, 
+	{
+		"name": "not existing dish Chicken Caesar Salad0", 
+		"cookingTime": "25 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Chicken-Caesar-Salad0", 
+		"imageUrl": "img/recipes/Chicken-Caesar-Salad.jpg"
+	},
+	{
+		"name": "not existing dish Lemon Chicken1", 
+		"cookingTime": "30 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Lemon-Chicken1", 
+		"imageUrl": "img/recipes/Lemon-Chicken.jpg"
+	}, 
+	{
+		"name": "not existing dish Beef Stroganoff1", 
+		"cookingTime": "30 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Beef-Stroganoff1", 
+		"imageUrl": "img/recipes/Beef-Stroganoff.jpg"
+	}, 
+	{
+		"name": "not existing dish Chicken Caesar Salad1", 
+		"cookingTime": "25 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Chicken-Caesar-Salad1", 
+		"imageUrl": "img/recipes/Chicken-Caesar-Salad.jpg"
+	}, 
+	{
+		"name": "Some Other salad", 
+		"cookingTime": "10 minutes", 
+		"mainIngredients": [
+			{
+				"ingredient": "Salad",
+				"quantity": "200 g"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Tomato",
+				"quantity": "3"
+			}
+		],
+		"id": "Some-Other-salad", 
+		"imageUrl": "img/recipes/Chicken-Caesar-Salad.jpg"
+	}
+	
+]

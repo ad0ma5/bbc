@@ -1,0 +1,23 @@
+[
+	{
+		"name":"Lemon Chicken", 
+		"cookingTime": 30, 
+		"mainIngredients": [
+			{
+				"ingredient": "Chicken",
+				"quantity": "4"
+			},
+			{
+				"ingredient": "Lemon",
+				"quantity": "1"
+			},
+			{
+				"ingredient": "Thyme",
+				"quantity": "1 tsp"
+			}
+		],
+		"id": "Lemon-Chicken", 
+		"imageUrl": "img/recipes/Lemon-Chicken.jpg",
+		"recipe": "long recipe on how to do it"
+	}
+]

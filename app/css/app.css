@@ -1,0 +1,12 @@
+.main{margin:2%; padding: 2%; border:1px; border-color:#000; border-style:dashed}
+.header{width: 100%; margin-bottom:2%;margin-top:1%}
+.recipes{margin-top:20px}
+.thumbnail {margin-bottom: 5px;padding:10px}
+.thumb{margin-left:25px;width:20%}
+.star_stuff{display:inline-block;width:50px}
+.page_msg{margin-left:40px;}
+.pagination{margin-left:20px;}
+.image_and_name{display: inline-block;    width: 30%}
+.header{color:#428bca}
+.list_img{width:50px; height:50px; }
+.recipe_descr{display:inline;float: right;margin-right:10%;  width: 50%;}
