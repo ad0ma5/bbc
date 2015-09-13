@@ -1,6 +1,11 @@
 # AngularJS & Node.js App "Recipes list"
 
-To launch application please run:
+To download this project please run in your terminal:
+
+* git clone https://github.com/ad0ma5/bbc.git
+* cd bbc
+
+To launch application please run in your terminal:
 
 * npm start
 
@@ -42,4 +47,5 @@ Please either:
 • Check your source code into a public github repository and email the repository location to the contact email provided; OR
 • Create an archive (zip, tar) and send the archive via email.
 
+# Specifications
 
