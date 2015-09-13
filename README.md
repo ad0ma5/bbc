@@ -47,5 +47,4 @@ Please either:
 • Check your source code into a public github repository and email the repository location to the contact email provided; OR
 • Create an archive (zip, tar) and send the archive via email.
 
-# Specifications
 
