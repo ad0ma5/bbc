@@ -1,5 +1,16 @@
 # AngularJS & Node.js App "Recipes list"
 
+To launch application please run:
+
+* npm start
+
+After all required dependencies are downloaded and server started,
+
+please visit URL:
+
+* http://0.0.0.0:3001/app/
+
+-------------------------------------------------------------------
 # The Challenge
 
 There is a request for a new food / recipe application that will help users become better at cooking. Unfortunately the product manager has dumped a bunch of specifications on you and done a runner!
